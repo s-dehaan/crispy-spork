@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Node + Devcontainer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-dehaan/crispy-spork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-dehaan/crispy-spork/issues"
+  },
+  "homepage": "https://github.com/s-dehaan/crispy-spork#readme",
+  "dependencies": {
+    "puppeteer": "^19.4.1"
+  }
+}
