@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: node-project
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../.:/workspace
+    networks:
+      - front-tier
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+networks:
+  front-tier: {}
