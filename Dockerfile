@@ -11,4 +11,9 @@ RUN apt-get update \
       --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
+COPY package*.json .
+RUN npm ci install
+
+COPY . .
+
 ENTRYPOINT [ "npm", "start" ]
