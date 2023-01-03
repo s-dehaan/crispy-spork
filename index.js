@@ -3,7 +3,7 @@ import express from "express";
 
 const app = express();
 
-app.get("/stock", async (request, response) => {
+app.get("/", async (request, response) => {
   const result = await getResult();
   response.json(result);
 });
