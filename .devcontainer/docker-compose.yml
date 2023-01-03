@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: node-project
+    container_name: crispy-spork
     build:
       context: .
       dockerfile: Dockerfile
